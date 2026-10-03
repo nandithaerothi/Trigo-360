@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrigoNest | Trigonometry Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-leaf leaf-one">🍃</div>
+    <div class="background-leaf leaf-two">🌿</div>
+
+    <header>
+        <div class="logo">△ TrigoNest</div>
+        <p>Explore the beauty of every angle</p>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div>
+                <span class="tag">TRIGONOMETRY</span>
+                <h1>Every angle has a story.</h1>
+                <p>
+                    Enter any angle and discover its
+                    sine, cosine, tangent and reciprocal ratios.
+                </p>
+            </div>
+
+            <div class="circle">
+                <span>θ</span>
+            </div>
+        </section>
+
+
+        <section class="calculator">
+
+            <h2>Angle Calculator</h2>
+
+            <p class="subtitle">
+                Enter any angle from 1° to infinity.
+            </p>
+
+            <div class="input-area">
+
+                <input
+                    type="number"
+                    id="angleInput"
+                    placeholder="Enter angle"
+                    step="any"
+                    min="1"
+                >
+
+                <span class="degree">°</span>
+
+                <button id="calculateButton" type="button">
+                    Calculate
+                </button>
+
+            </div>
+
+            <p id="errorMessage"></p>
+
+
+            <div class="results">
+
+                <div class="result-card">
+                    <span>sin θ</span>
+                    <strong id="sinResult">—</strong>
+                </div>
+
+                <div class="result-card">
+                    <span>cos θ</span>
+                    <strong id="cosResult">—</strong>
+                </div>
+
+                <div class="result-card">
+                    <span>tan θ</span>
+                    <strong id="tanResult">—</strong>
+                </div>
+
+                <div class="result-card">
+                    <span>cosec θ</span>
+                    <strong id="cosecResult">—</strong>
+                </div>
+
+                <div class="result-card">
+                    <span>sec θ</span>
+                    <strong id="secResult">—</strong>
+                </div>
+
+                <div class="result-card">
+                    <span>cot θ</span>
+                    <strong id="cotResult">—</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="info">
+
+            <div class="info-card">
+                <span>01</span>
+                <h3>Sine</h3>
+                <p>sin θ = Opposite / Hypotenuse</p>
+            </div>
+
+            <div class="info-card">
+                <span>02</span>
+                <h3>Cosine</h3>
+                <p>cos θ = Adjacent / Hypotenuse</p>
+            </div>
+
+            <div class="info-card">
+                <span>03</span>
+                <h3>Tangent</h3>
+                <p>tan θ = Opposite / Adjacent</p>
+            </div>
+
+            <div class="info-card">
+                <span>04</span>
+                <h3>Cosecant</h3>
+                <p>cosec θ = 1 / sin θ</p>
+            </div>
+
+            <div class="info-card">
+                <span>05</span>
+                <h3>Secant</h3>
+                <p>sec θ = 1 / cos θ</p>
+            </div>
+
+            <div class="info-card">
+                <span>06</span>
+                <h3>Cotangent</h3>
+                <p>cot θ = 1 / tan θ</p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>TrigoNest • Learn angles. Understand patterns.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
